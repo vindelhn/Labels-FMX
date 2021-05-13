@@ -1,0 +1,21 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited Label1: TLabel
+    Size.Width = 225.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited GridPanelLayout1: TGridPanelLayout
+    Size.Width = 450.000000000000000000
+    inherited Button1: TButton
+      Size.Width = 225.000000000000000000
+    end
+    inherited Button2: TButton
+      Size.Width = 225.000000000000000000
+    end
+  end
+  inherited Label2: TLabel
+    Size.Width = 450.000000000000000000
+  end
+end

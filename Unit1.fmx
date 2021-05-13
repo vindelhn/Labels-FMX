@@ -1,0 +1,86 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 704
+  ClientWidth = 386
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Label1: TLabel
+    Align = Top
+    AutoTranslate = False
+    StyledSettings = [FontColor]
+    Scale.X = 2.000000000000000000
+    Scale.Y = 2.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 241.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'toollabel'
+    TextSettings.Font.Family = 'Dosis'
+    TextSettings.Font.Size = 57.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    TextSettings.WordWrap = False
+    Text = '6890'
+    TabOrder = 0
+  end
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Top
+    Position.Y = 482.000000000000000000
+    Size.Width = 386.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    ColumnCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = Button1
+        Row = 0
+      end
+      item
+        Column = 1
+        Control = Button2
+        Row = 0
+      end>
+    RowCollection = <
+      item
+        Value = 100.000000000000000000
+      end>
+    object Button1: TButton
+      Align = Client
+      Size.Width = 193.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      Text = '-'
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Align = Client
+      Size.Width = 193.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = '+'
+      OnClick = Button2Click
+    end
+  end
+  object Label2: TLabel
+    Align = Top
+    Position.Y = 532.000000000000000000
+    Size.Width = 386.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
+    TabOrder = 4
+  end
+end
